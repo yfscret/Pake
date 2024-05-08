@@ -6,7 +6,7 @@
       "fullscreen": true,
       "width": 1920,
       "height": 1080,
-      "resizable": true,
+      "resizable": false,
       "url_type": "web"
     }
   ],
