@@ -63,6 +63,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const appWindow = tauri.window.appWindow;
   const invoke = tauri.tauri.invoke;
 
+  const header_time = document.getElementById('header_time');
+  header_time.addEventListener('dblclick', () => {
+    appWindow.close();
+  });
+
   if(!document.getElementById('pake-top-dom')){
     const topDom = document.createElement('div');
     topDom.id = 'pake-top-dom';
@@ -264,3 +269,5 @@ function getFilenameFromUrl(url) {
   const urlPath = new URL(url).pathname;
   return urlPath.substring(urlPath.lastIndexOf('/') + 1);
 }
+
+
