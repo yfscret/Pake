@@ -1,14 +1,14 @@
 {
   "tauri": {
     "bundle": {
-      "icon": ["png/logo_256.ico", "png/logo_32.ico"],
-      "identifier": "com.pake.logo",
+      "icon": ["png/icon_256.ico", "png/icon_32.ico"],
+      "identifier": "com.pake.icon",
       "active": true,
       "category": "DeveloperTool",
       "copyright": "",
       "externalBin": [],
       "longDescription": "",
-      "resources": ["png/logo_32.ico"],
+      "resources": ["png/icon_32.ico"],
       "shortDescription": "",
       "targets": ["msi"],
       "windows": {

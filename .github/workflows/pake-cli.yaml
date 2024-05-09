@@ -20,7 +20,6 @@ on:
       icon:
         description: '[Icon, Optional]'
         required: false
-        default: 'src-tauri/png/logo_256.ico'
       width:
         description: '[Width, Optional]'
         required: false
