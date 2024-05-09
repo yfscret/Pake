@@ -20,14 +20,15 @@ on:
       icon:
         description: '[Icon, Optional]'
         required: false
+        default: 'png/logo_256.ico'
       width:
         description: '[Width, Optional]'
         required: false
-        default: '1200'
+        default: '1920'
       height:
         description: '[Height, Optional]'
         required: false
-        default: '780'
+        default: '1080'
       transparent:
         description: '[Transparent, Optional, MacOS only]'
         required: false
@@ -121,14 +122,15 @@ jobs:
         env:
           URL: ${{ inputs.url }}
           NAME: ${{ inputs.name }}
-          ICON: ${{ inputs.icon }}
+          ICON: '${{ inputs.icon }}'
           HEIGHT: ${{ inputs.height }}
           WIDTH: ${{ inputs.width }}
           TRANSPARENT: ${{ inputs.transparent }}
-          FULLSCREEN: ${{ inputs.fullscreen }}
-          RESIZE: ${{ inputs.resize }}
+          FULLSCREEN: true
+          RESIZE: false
           MULTI_ARCH: ${{ inputs.multi_arch }}
           TARGETS: ${{ inputs.targets }}
+          USER_AGENT: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 EXEONLY'
 
       - name: Upload archive
         uses: actions/upload-artifact@v3

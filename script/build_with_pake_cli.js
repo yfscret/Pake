@@ -15,6 +15,8 @@ console.log('height: ', process.env.HEIGHT);
 console.log('width: ', process.env.WIDTH);
 console.log('transparent: ', process.env.TRANSPARENT);
 console.log('resize: ', process.env.RESIZE);
+console.log('fullscreen: ', process.env.FULLSCREEN);
+console.log('user_agent: ', process.env.USER_AGENT);
 console.log('is multi arch? only for Mac: ', process.env.MULTI_ARCH);
 console.log('targets type? only for Linux: ', process.env.TARGETS);
 console.log('===========================\n');
@@ -27,12 +29,18 @@ if (process.env.TRANSPARENT === 'true') {
 }
 
 if (process.env.FULLSCREEN === 'true') {
-  params = `${params} --resize`;
+  params = `${params} --fullscreen`;
 }
+
 
 if (process.env.MULTI_ARCH === 'true') {
   exec('rustup target add aarch64-apple-darwin');
   params = `${params} --multi-arch`;
+}
+
+
+if (process.env.USER_AGENT) {
+  params = `${params} --user-agent ${process.env.USER_AGENT}`;
 }
 
 if (process.env.TARGETS) {
