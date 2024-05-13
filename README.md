@@ -293,27 +293,20 @@ Pake's development can not be without these Hackers. They contributed a lot of c
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/yfscret">
-            <img src="https://avatars.githubusercontent.com/u/33457670?v=4" width="90;" alt="yfscret"/>
-            <br />
-            <sub><b>Rushboy</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/hetz">
             <img src="https://avatars.githubusercontent.com/u/820141?v=4" width="90;" alt="hetz"/>
             <br />
             <sub><b>贺天卓</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/piaoyidage">
             <img src="https://avatars.githubusercontent.com/u/5135405?v=4" width="90;" alt="piaoyidage"/>
             <br />
             <sub><b>Ranger</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/liusishan">
             <img src="https://avatars.githubusercontent.com/u/33129823?v=4" width="90;" alt="liusishan"/>
@@ -347,6 +340,13 @@ Pake's development can not be without these Hackers. They contributed a lot of c
             <img src="https://avatars.githubusercontent.com/u/126322776?v=4" width="90;" alt="geekvest"/>
             <br />
             <sub><b>Null</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/yfscret">
+            <img src="https://avatars.githubusercontent.com/u/33457670?v=4" width="90;" alt="yfscret"/>
+            <br />
+            <sub><b>Rushboy</b></sub>
         </a>
     </td>
     <td align="center">
