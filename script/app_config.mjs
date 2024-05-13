@@ -45,10 +45,10 @@ const variables = {
   macos: {
     configFilePath: 'src-tauri/tauri.macos.conf.json',
     // iconPath: `src-tauri/icons/${process.env.NAME}.icns`,
-    iconPath: `src-tauri/icons/icon.icn`,
+    iconPath: `src-tauri/icons/icon.icns`,
     defaultPath: 'src-tauri/icons/icon.icns',
     // icon: [`icons/${process.env.NAME}.icns`],
-    icon: [`src-tauri/icons/icon.icn`],
+    icon: [`src-tauri/icons/icon.icns`],
   },
   windows: {
     configFilePath: 'src-tauri/tauri.windows.conf.json',
